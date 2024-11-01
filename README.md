@@ -23,7 +23,10 @@ Used for building JAR file. The code base contains cloudbuild.yaml which will ex
 
 * Delta tables (bronze/silve/gold): GCS bucket <DELTA_FOLDER_PATH> contain files for delta tables created during all the layers.
 
-#### 3. BigQuery
+#### 3. Dataproc serverless
+Spark jobs for creating medallion architecture, data transformations at every layer and meaningful insights are getting run on Dataproc serverless.
+
+#### 4. BigQuery
 
 Gold layer tables are loaded in BigQuery for analysis. 
 

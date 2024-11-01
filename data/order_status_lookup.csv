@@ -1,0 +1,4 @@
+﻿order_status_lookup_id,order_status
+1,Placed
+2,Canceled
+3,Complete

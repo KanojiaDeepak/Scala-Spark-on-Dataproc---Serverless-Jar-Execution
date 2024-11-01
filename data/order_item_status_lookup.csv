@@ -1,0 +1,7 @@
+﻿order_item_status_lookup_id,order_item_status
+1,Placed
+2,Packaged
+3,Ready to ship
+4,Shipped
+5,Canceled
+6,Complete
